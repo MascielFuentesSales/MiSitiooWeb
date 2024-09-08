@@ -1,0 +1,86 @@
+body {
+    background-color: #ffe2f3;
+    color: #8a3064;
+    font-family: 'Arapey', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #661142;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em; 
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #661142;
+    font-size: 1.8em; 
+    text-align: center; 
+    border-bottom: 2px solid #8a3064;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #661142;
+    text-align: center; 
+}
+
+p {
+    line-height: 1.6;
+    text-align: center; 
+}
+
+.character {
+    margin-bottom: 20px;
+}
+
+.character-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.trivia ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.season-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.season-table th, .season-table td {
+    border: 1px solid #8a3064;
+    padding: 8px;
+    text-align: center;
+}
+
+.season-table th {
+    background-color: #661142;
+    color: white;
+}
+
+footer {
+    background-color: #661142;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
